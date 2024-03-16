@@ -1,4 +1,4 @@
-package com.ujs.hhj.timedemo;
+package com.ujs.hhj.timedemo.datedemo;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

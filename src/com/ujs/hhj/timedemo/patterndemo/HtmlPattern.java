@@ -1,4 +1,4 @@
-package com.ujs.hhj.patterndemo;
+package com.ujs.hhj.timedemo.patterndemo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

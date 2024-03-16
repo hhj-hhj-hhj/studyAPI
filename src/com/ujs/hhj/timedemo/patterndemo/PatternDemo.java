@@ -1,4 +1,4 @@
-package com.ujs.hhj.patterndemo;
+package com.ujs.hhj.timedemo.patterndemo;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

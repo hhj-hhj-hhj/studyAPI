@@ -1,4 +1,4 @@
-package com.ujs.hhj.patterndemo;
+package com.ujs.hhj.timedemo.patterndemo;
 
 public class StringPattern {
     public static void main(String[] args) {
