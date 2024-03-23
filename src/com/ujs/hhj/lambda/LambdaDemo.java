@@ -15,6 +15,9 @@ public class LambdaDemo {
 //        可以省略参数类型
         Arrays.sort(arr, (o1, o2) -> {
             return o2 - o1;});
+//        可以省略return
+        Arrays.sort(arr, (o1, o2) -> o2 - o1);
+
         System.out.println(Arrays.toString(arr));
     }
 
