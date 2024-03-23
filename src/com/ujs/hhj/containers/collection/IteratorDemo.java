@@ -23,5 +23,13 @@ public class IteratorDemo {
         while(coIt.hasNext()){
             System.out.println(coIt.next());
         }
+//        利用for使用迭代器输出元素内容
+        System.out.println("利用for使用迭代器输出元素内容");
+        for(String s : coll){
+            System.out.println(s);
+        }
+//        利用lambda表达式输出元素内容
+        System.out.println("利用lambda表达式输出元素内容");
+        coll.forEach(System.out::println);
     }
 }
