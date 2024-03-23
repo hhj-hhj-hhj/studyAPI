@@ -11,6 +11,11 @@ public class ListDemo {
         forEach2(list);
         forEach3(list);
     }
+    private static void init(List<String> list) {
+        list.add("hello");
+        list.add("world");
+        list.add("java");
+    }
 
     private static void forEach3(List<String> list) {
         for(String s : list){
@@ -20,12 +25,6 @@ public class ListDemo {
 
     private static void forEach2(List<String> list) {
         list.forEach(System.out::println);
-    }
-
-    private static void init(List<String> list) {
-        list.add("hello");
-        list.add("world");
-        list.add("java");
     }
 
     private static void forEach1(List<String> list) {
