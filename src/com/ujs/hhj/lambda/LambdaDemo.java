@@ -10,7 +10,7 @@ public class LambdaDemo {
     }
 
     private static void fun2() {
-        System.out.println("-------lambda表达式-------");
+        System.out.println("-------lambda表达式完整模式-------");
         Integer[] arr = {1, 4, 5, 3, 2};
 //        可以省略参数类型
         Arrays.sort(arr, (o1, o2) -> {
