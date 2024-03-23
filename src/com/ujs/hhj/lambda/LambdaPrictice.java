@@ -11,6 +11,7 @@ public class LambdaPrictice {
     }
 
     private static void classSort() {
+//        按照年龄排序，年龄相同按照身高排序，身高相同按照名字排序
         girlFriend[] girlFriend = {new girlFriend("hhj", 14, 180), new girlFriend("hjq", 14, 175), new girlFriend("lyq", 15, 169), new girlFriend("lq", 15, 169)};
         Arrays.sort(girlFriend, (o1, o2) -> {
             if (o1.age == o2.age) {
