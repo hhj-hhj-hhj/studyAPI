@@ -12,6 +12,7 @@ public class ListDemo {
         forEach2(list);
         forEach3(list);
         forEach4(list);
+
     }
 
     private static void forEach4(List<String> list) {
