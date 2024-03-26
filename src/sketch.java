@@ -1,6 +1,7 @@
 public class sketch {
     public static void main(String[] args) {
         method(fun::printID);
+        method(s -> System.out.println(s));
     }
     public static void method(func f){
         String s = "hello world";
